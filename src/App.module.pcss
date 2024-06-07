@@ -1,0 +1,12 @@
+.container {
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
