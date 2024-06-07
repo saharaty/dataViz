@@ -1,0 +1,39 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px;
+  z-index: 100;
+
+  & button {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.5s;
+    z-index: 10;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  & .active {
+    color: var(--background-color);
+  }
+}
+
+.indicator {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: var(--text-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  z-index: 0;
+  transition: all 0.25s;
+}
