@@ -1,5 +1,5 @@
 # Life Expectancy Visualisation
-https://dv-life-expectancy.netlify.app/
+https://saharaty.github.io/dataViz/
 
 ## Data
 - https://population.un.org/wpp/Download/Standard/Population/
@@ -7,5 +7,5 @@ https://dv-life-expectancy.netlify.app/
 ## Tech
 - Language: Javascript
 - UI FrameWork/Library: React
-- Deployment: Netlify
+- Deployment: Github Pages
 - Charting library: Apache Echarts
